@@ -61,7 +61,7 @@ const seedTest = connection.model("seedTest", seedTestSchema);
 
 const path = require("path");
 // import manager
-const { SeedDataManager } = require("seedDataManager");
+const { SeedDataManager } = require("mongoose-seed-manager");
 
 // create a manager
 const seedDataManager = new SeedDataManager(
